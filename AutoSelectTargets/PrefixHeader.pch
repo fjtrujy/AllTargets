@@ -6,8 +6,8 @@
 //  Copyright (c) 2015年 Jobs. All rights reserved.
 //
 
-#ifndef AllTargets_PrefixHeader_pch
-#define AllTargets_PrefixHeader_pch
+#ifndef AutoSelectTargets_PrefixHeader_pch
+#define AutoSelectTargets_PrefixHeader_pch
 
 #import <Cocoa/Cocoa.h>
 #import "JRSwizzle.h"
