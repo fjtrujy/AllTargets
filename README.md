@@ -1,9 +1,9 @@
 
-# AllTargets
-  AllTargets is a plugin for Xcode. The plugin intends to auto select targets depending of the selected configuration when you add files to the project.
+# AutoSelectTarget
+  AutoSelectTarget is a plugin for Xcode. The plugin intends to auto select targets depending of the selected configuration when you add files to the project.
   
-  ![image](https://github.com/fjtrujy/AllTargets/raw/master/Screenshots/mainMenu.png)
-  ![image](https://github.com/poboke/AllTargets/raw/master/Screenshots/about.png)
+  ![image](https://github.com/fjtrujy/AutoSelectTargets/raw/master/Screenshots/mainMenu.png)
+  ![image](https://github.com/poboke/AutoSelectTargets/raw/master/Screenshots/about.png)
 
   If sometimes you want to add files to a specif target, you can click the Xcode menu "Plugins", then to "Auto Select Targets" sub menu and then select/deselect all options.
 
@@ -11,6 +11,7 @@
   - Xcode5
   - Xcode6
   - Xcode7
+  - Xcode8
 
 ## Install
   - Using [Alcatraz](https://github.com/mneorr/Alcatraz)
@@ -25,11 +26,6 @@
   Delete the following directory:
 
   $HOME/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins/AllTargets.xcplugin
-
-## Tutorial
-  See the tutorial in my blog.
-
-  http://www.poboke.com/study/write-a-xcode-plugin-to-auto-select-all-targets.html
 
 ## License
 	(The WTFPL)
