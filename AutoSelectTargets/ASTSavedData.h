@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ATSavedData : NSObject
+@interface ASTSavedData : NSObject
 
 @property (nonatomic, assign) BOOL allTargetSelected;
 @property (nonatomic, assign) BOOL allAppsSelected;

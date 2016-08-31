@@ -8,13 +8,13 @@
 
 #import <AppKit/AppKit.h>
 
-@class ATSavedData;
+@class ASTSavedData;
 
-@interface AllTargets : NSObject
+@interface AutoSelectTargets : NSObject
 
 + (instancetype)sharedPlugin;
 
 @property (nonatomic, strong, readonly) NSBundle *bundle;
-@property (nonatomic, strong, readonly) ATSavedData *savedData;
+@property (nonatomic, strong, readonly) ASTSavedData *savedData;
 
 @end

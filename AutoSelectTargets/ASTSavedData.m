@@ -6,20 +6,20 @@
 //  Copyright © 2016 Jobs. All rights reserved.
 //
 
-#import "ATSavedData.h"
+#import "ASTSavedData.h"
 
 static NSString * const ATSavedDataAllTargetsKey = @"allTargets";
 static NSString * const ATSavedDataAllAppsKey = @"allApps";
 static NSString * const ATSavedDataAllExtensionsKey = @"allExtensions";
 static NSString * const ATSavedDataAllTestsKey = @"allTests";
 
-@interface ATSavedData ()
+@interface ASTSavedData ()
 
 @property (nonatomic, strong) NSDictionary *encodedDictionary;
 
 @end
 
-@implementation ATSavedData
+@implementation ASTSavedData
 
 - (BOOL)allAppsSelected
 {

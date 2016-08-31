@@ -6,28 +6,28 @@
 //  Copyright © 2016 Jobs. All rights reserved.
 //
 
-#import "ATMenuItem.h"
+#import "ASTMenuItem.h"
 #import "Xcode3TargetMembershipDataSource+HookAllTargets.h"
-#import "ATLocalizableHelper.h"
-#import "ATSavedData.h"
+#import "ASTLocalizableHelper.h"
+#import "ASTSavedData.h"
 
-@interface ATMenuItem()
+@interface ASTMenuItem()
 
-@property (nonatomic, strong) ATSavedData *savedData;
+@property (nonatomic, strong) ASTSavedData *savedData;
 @property (nonatomic, strong) NSArray<NSMenuItem *> *submenuOptions;
 
 @end
 
-@implementation ATMenuItem
+@implementation ASTMenuItem
 
-- (instancetype)initWithSavedData:(ATSavedData *)savedData
+- (instancetype)initWithSavedData:(ASTSavedData *)savedData
 {
     self = [super init];
     
     if (self) {
         _submenuOptions = @[];
         _savedData = savedData;
-        self.title = ATLocalizedString(@"ATTargetMenuItem::AutoSelectTargets", nil);
+        self.title = ASTLocalizedString(@"ATTargetMenuItem::AutoSelectTargets", nil);
         self.submenu = [self subMenu];
     }
     
@@ -55,7 +55,7 @@
 - (NSMenuItem *)selectAll
 {
     NSMenuItem *menuItem = [[NSMenuItem alloc] init];
-    menuItem.title = ATLocalizedString(@"ATTargetMenuItem::AllTargets", nil);
+    menuItem.title = ASTLocalizedString(@"ATTargetMenuItem::AllTargets", nil);
     menuItem.target = self;
     menuItem.action = @selector(toggleSelectAllTargetsMenu:);
     menuItem.state = self.savedData.allTargetSelected;
@@ -71,7 +71,7 @@
 - (NSMenuItem *)selectApps
 {
     NSMenuItem *menuItem = [[NSMenuItem alloc] init];
-    menuItem.title = ATLocalizedString(@"ATTargetMenuItem::AppTargets", nil);
+    menuItem.title = ASTLocalizedString(@"ATTargetMenuItem::AppTargets", nil);
     menuItem.target = self;
     menuItem.action = @selector(toggleSelectAllAppsMenu:);
     menuItem.state = self.savedData.allAppsSelected;
@@ -82,7 +82,7 @@
 - (NSMenuItem *)selectExtensions
 {
     NSMenuItem *menuItem = [[NSMenuItem alloc] init];
-    menuItem.title = ATLocalizedString(@"ATTargetMenuItem::ExtensionTargets", nil);
+    menuItem.title = ASTLocalizedString(@"ATTargetMenuItem::ExtensionTargets", nil);
     menuItem.target = self;
     menuItem.action = @selector(toggleSelectAllExtensionsMenu:);
     menuItem.state = self.savedData.allExtensionsSelected;
@@ -93,7 +93,7 @@
 - (NSMenuItem *)selectTest
 {
     NSMenuItem *menuItem = [[NSMenuItem alloc] init];
-    menuItem.title = ATLocalizedString(@"ATTargetMenuItem::TestTargets", nil);
+    menuItem.title = ASTLocalizedString(@"ATTargetMenuItem::TestTargets", nil);
     menuItem.target = self;
     menuItem.action = @selector(toggleSelectAllTestsMenu:);
     menuItem.state = self.savedData.allTestsSelected;

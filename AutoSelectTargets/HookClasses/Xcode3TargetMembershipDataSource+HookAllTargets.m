@@ -8,8 +8,8 @@
 
 #import "Xcode3TargetMembershipDataSource+HookAllTargets.h"
 #import "Xcode3TargetWrapper.h"
-#import "AllTargets.h"
-#import "ATSavedData.h"
+#import "AutoSelectTargets.h"
+#import "ASTSavedData.h"
 
 static NSString * const WrappedTargetsKey = @"wrappedTargets";
 static NSString * const ProductTypeKey = @"productType";
@@ -37,7 +37,7 @@ static NSString * const ProductDynamicLibraryKey = @"PBXDynamicLibraryProductTyp
     
     // Run our custom code
     NSMutableArray *wrappedTargets = [self valueForKey:WrappedTargetsKey];
-    ATSavedData *savedData = [[AllTargets sharedPlugin] savedData];
+    ASTSavedData *savedData = [[AutoSelectTargets sharedPlugin] savedData];
     
     for (Xcode3TargetWrapper *targetWrapper in wrappedTargets) {
         // Select the targets depending of the ATSavedData configuration

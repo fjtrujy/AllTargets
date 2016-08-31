@@ -7,24 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		69DBDAE71D6B4D6A004B3D4F /* ATMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DBDAE61D6B4D6A004B3D4F /* ATMenuItem.m */; };
-		69E80E711D6C249D00D10546 /* ATSavedData.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E80E701D6C249D00D10546 /* ATSavedData.m */; };
+		6991B67C1D76E3EF00DDADC8 /* AutoSelectTargets.m in Sources */ = {isa = PBXBuildFile; fileRef = 6991B6761D76E3CD00DDADC8 /* AutoSelectTargets.m */; };
+		6991B67D1D76E3F400DDADC8 /* ASTMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6991B6791D76E3CD00DDADC8 /* ASTMenuItem.m */; };
+		6991B67E1D76E3F800DDADC8 /* ASTSavedData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6991B67B1D76E3CD00DDADC8 /* ASTSavedData.m */; };
 		B541DBC01D56374B00FD5889 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B541DBC21D56374B00FD5889 /* Localizable.strings */; };
 		C5479A8C1B36FAAD007B58C2 /* Xcode3UI in Frameworks */ = {isa = PBXBuildFile; fileRef = C5479A8B1B36FAAD007B58C2 /* Xcode3UI */; };
 		C560DD4C1B36B9BF0066EE9A /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = C560DD4B1B36B9BF0066EE9A /* JRSwizzle.m */; };
 		C564DB741C4DFE0B00CF61FA /* Xcode3TargetMembershipDataSource+HookAllTargets.m in Sources */ = {isa = PBXBuildFile; fileRef = C564DB731C4DFE0B00CF61FA /* Xcode3TargetMembershipDataSource+HookAllTargets.m */; };
-		C5C02E311A73971C00D4CF7C /* AllTargets.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C02E301A73971C00D4CF7C /* AllTargets.m */; };
 		C5D702301A77CF7E00FC7172 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D700A51A77CF7B00FC7172 /* AppKit.framework */; };
 		C5D702601A77CF7E00FC7172 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D700D51A77CF7B00FC7172 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		69DBDAE51D6B4D6A004B3D4F /* ATMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMenuItem.h; sourceTree = "<group>"; };
-		69DBDAE61D6B4D6A004B3D4F /* ATMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMenuItem.m; sourceTree = "<group>"; };
-		69E80E6F1D6C249D00D10546 /* ATSavedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATSavedData.h; sourceTree = "<group>"; };
-		69E80E701D6C249D00D10546 /* ATSavedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATSavedData.m; sourceTree = "<group>"; };
+		6991B6751D76E3CD00DDADC8 /* AutoSelectTargets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AutoSelectTargets.h; path = AutoSelectTargets/AutoSelectTargets.h; sourceTree = SOURCE_ROOT; };
+		6991B6761D76E3CD00DDADC8 /* AutoSelectTargets.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AutoSelectTargets.m; path = AutoSelectTargets/AutoSelectTargets.m; sourceTree = SOURCE_ROOT; };
+		6991B6771D76E3CD00DDADC8 /* ASTLocalizableHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ASTLocalizableHelper.h; path = AutoSelectTargets/ASTLocalizableHelper.h; sourceTree = SOURCE_ROOT; };
+		6991B6781D76E3CD00DDADC8 /* ASTMenuItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ASTMenuItem.h; path = AutoSelectTargets/ASTMenuItem.h; sourceTree = SOURCE_ROOT; };
+		6991B6791D76E3CD00DDADC8 /* ASTMenuItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ASTMenuItem.m; path = AutoSelectTargets/ASTMenuItem.m; sourceTree = SOURCE_ROOT; };
+		6991B67A1D76E3CD00DDADC8 /* ASTSavedData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ASTSavedData.h; path = AutoSelectTargets/ASTSavedData.h; sourceTree = SOURCE_ROOT; };
+		6991B67B1D76E3CD00DDADC8 /* ASTSavedData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ASTSavedData.m; path = AutoSelectTargets/ASTSavedData.m; sourceTree = SOURCE_ROOT; };
 		B541DBC11D56374B00FD5889 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		B57F2ADF1D567F95005B5CC5 /* ATLocalizableHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATLocalizableHelper.h; sourceTree = "<group>"; };
 		C5479A8B1B36FAAD007B58C2 /* Xcode3UI */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = Xcode3UI; path = /Applications/Xcode.app/Contents/PlugIns/Xcode3UI.ideplugin/Contents/MacOS/Xcode3UI; sourceTree = "<group>"; };
 		C5482A7A1B3701BF00B41B97 /* Xcode3TargetMembershipDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Xcode3TargetMembershipDataSource.h; sourceTree = "<group>"; };
 		C54A8B491B36B70600BBDE7E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -33,10 +35,8 @@
 		C564DB721C4DFE0B00CF61FA /* Xcode3TargetMembershipDataSource+HookAllTargets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Xcode3TargetMembershipDataSource+HookAllTargets.h"; sourceTree = "<group>"; };
 		C564DB731C4DFE0B00CF61FA /* Xcode3TargetMembershipDataSource+HookAllTargets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Xcode3TargetMembershipDataSource+HookAllTargets.m"; sourceTree = "<group>"; };
 		C58506951B9EDCDB00071B27 /* Xcode3TargetWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Xcode3TargetWrapper.h; sourceTree = "<group>"; };
-		C5C02E231A73971C00D4CF7C /* AllTargets.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllTargets.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5C02E231A73971C00D4CF7C /* AutoSelectTargets.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoSelectTargets.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C02E2C1A73971C00D4CF7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C5C02E2F1A73971C00D4CF7C /* AllTargets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AllTargets.h; sourceTree = "<group>"; };
-		C5C02E301A73971C00D4CF7C /* AllTargets.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AllTargets.m; sourceTree = "<group>"; };
 		C5D700A51A77CF7B00FC7172 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		C5D700D51A77CF7B00FC7172 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -60,7 +60,8 @@
 			children = (
 				B541DBC21D56374B00FD5889 /* Localizable.strings */,
 			);
-			path = Localizables;
+			name = Localizables;
+			path = ../AutoSelectTargets/Localizables;
 			sourceTree = "<group>";
 		};
 		C5479A851B36FA46007B58C2 /* Other Framewotks */ = {
@@ -78,7 +79,8 @@
 				C58506951B9EDCDB00071B27 /* Xcode3TargetWrapper.h */,
 				C5482A7A1B3701BF00B41B97 /* Xcode3TargetMembershipDataSource.h */,
 			);
-			path = XcodeHeaders;
+			name = XcodeHeaders;
+			path = ../AutoSelectTargets/XcodeHeaders;
 			sourceTree = "<group>";
 		};
 		C5482A7C1B37023B00B41B97 /* HookClasses */ = {
@@ -87,7 +89,8 @@
 				C564DB721C4DFE0B00CF61FA /* Xcode3TargetMembershipDataSource+HookAllTargets.h */,
 				C564DB731C4DFE0B00CF61FA /* Xcode3TargetMembershipDataSource+HookAllTargets.m */,
 			);
-			path = HookClasses;
+			name = HookClasses;
+			path = ../AutoSelectTargets/HookClasses;
 			sourceTree = "<group>";
 		};
 		C560DD491B36B9BF0066EE9A /* JRSwizzle */ = {
@@ -96,13 +99,14 @@
 				C560DD4A1B36B9BF0066EE9A /* JRSwizzle.h */,
 				C560DD4B1B36B9BF0066EE9A /* JRSwizzle.m */,
 			);
-			path = JRSwizzle;
+			name = JRSwizzle;
+			path = ../AutoSelectTargets/JRSwizzle;
 			sourceTree = "<group>";
 		};
 		C5C02E1A1A73971C00D4CF7C = {
 			isa = PBXGroup;
 			children = (
-				C5C02E2A1A73971C00D4CF7C /* AllTargets */,
+				C5C02E2A1A73971C00D4CF7C /* AutoSelectTargets */,
 				C5C02E251A73971C00D4CF7C /* Frameworks */,
 				C5C02E241A73971C00D4CF7C /* Products */,
 			);
@@ -111,7 +115,7 @@
 		C5C02E241A73971C00D4CF7C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C5C02E231A73971C00D4CF7C /* AllTargets.xcplugin */,
+				C5C02E231A73971C00D4CF7C /* AutoSelectTargets.xcplugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,23 +129,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C5C02E2A1A73971C00D4CF7C /* AllTargets */ = {
+		C5C02E2A1A73971C00D4CF7C /* AutoSelectTargets */ = {
 			isa = PBXGroup;
 			children = (
+				6991B6751D76E3CD00DDADC8 /* AutoSelectTargets.h */,
+				6991B6761D76E3CD00DDADC8 /* AutoSelectTargets.m */,
+				6991B6771D76E3CD00DDADC8 /* ASTLocalizableHelper.h */,
+				6991B6781D76E3CD00DDADC8 /* ASTMenuItem.h */,
+				6991B6791D76E3CD00DDADC8 /* ASTMenuItem.m */,
+				6991B67A1D76E3CD00DDADC8 /* ASTSavedData.h */,
+				6991B67B1D76E3CD00DDADC8 /* ASTSavedData.m */,
 				B541DBBD1D5636C800FD5889 /* Localizables */,
-				B57F2ADF1D567F95005B5CC5 /* ATLocalizableHelper.h */,
-				C5C02E2F1A73971C00D4CF7C /* AllTargets.h */,
-				C5C02E301A73971C00D4CF7C /* AllTargets.m */,
-				69DBDAE51D6B4D6A004B3D4F /* ATMenuItem.h */,
-				69DBDAE61D6B4D6A004B3D4F /* ATMenuItem.m */,
-				69E80E6F1D6C249D00D10546 /* ATSavedData.h */,
-				69E80E701D6C249D00D10546 /* ATSavedData.m */,
 				C5482A7C1B37023B00B41B97 /* HookClasses */,
 				C5482A791B3701BF00B41B97 /* XcodeHeaders */,
 				C560DD491B36B9BF0066EE9A /* JRSwizzle */,
 				C5C02E2B1A73971C00D4CF7C /* Supporting Files */,
 			);
-			path = AllTargets;
+			path = AutoSelectTargets;
 			sourceTree = "<group>";
 		};
 		C5C02E2B1A73971C00D4CF7C /* Supporting Files */ = {
@@ -151,14 +155,15 @@
 				C54A8B491B36B70600BBDE7E /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			path = ../AutoSelectTargets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C5C02E221A73971C00D4CF7C /* AllTargets */ = {
+		C5C02E221A73971C00D4CF7C /* AutoSelectTargets */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C5C02E341A73971C00D4CF7C /* Build configuration list for PBXNativeTarget "AllTargets" */;
+			buildConfigurationList = C5C02E341A73971C00D4CF7C /* Build configuration list for PBXNativeTarget "AutoSelectTargets" */;
 			buildPhases = (
 				C5C02E1F1A73971C00D4CF7C /* Sources */,
 				C5C02E201A73971C00D4CF7C /* Resources */,
@@ -168,9 +173,9 @@
 			);
 			dependencies = (
 			);
-			name = AllTargets;
+			name = AutoSelectTargets;
 			productName = AllTargets;
-			productReference = C5C02E231A73971C00D4CF7C /* AllTargets.xcplugin */;
+			productReference = C5C02E231A73971C00D4CF7C /* AutoSelectTargets.xcplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -187,7 +192,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C5C02E1E1A73971C00D4CF7C /* Build configuration list for PBXProject "AllTargets" */;
+			buildConfigurationList = C5C02E1E1A73971C00D4CF7C /* Build configuration list for PBXProject "AutoSelectTargets" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -199,7 +204,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C5C02E221A73971C00D4CF7C /* AllTargets */,
+				C5C02E221A73971C00D4CF7C /* AutoSelectTargets */,
 			);
 		};
 /* End PBXProject section */
@@ -220,11 +225,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5C02E311A73971C00D4CF7C /* AllTargets.m in Sources */,
-				69DBDAE71D6B4D6A004B3D4F /* ATMenuItem.m in Sources */,
+				6991B67D1D76E3F400DDADC8 /* ASTMenuItem.m in Sources */,
 				C560DD4C1B36B9BF0066EE9A /* JRSwizzle.m in Sources */,
-				69E80E711D6C249D00D10546 /* ATSavedData.m in Sources */,
 				C564DB741C4DFE0B00CF61FA /* Xcode3TargetMembershipDataSource+HookAllTargets.m in Sources */,
+				6991B67E1D76E3F800DDADC8 /* ASTSavedData.m in Sources */,
+				6991B67C1D76E3EF00DDADC8 /* AutoSelectTargets.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +331,7 @@
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
-				INFOPLIST_FILE = AllTargets/Info.plist;
+				INFOPLIST_FILE = AutoSelectTargets/Info.plist;
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -336,13 +341,13 @@
 					"$(SDKROOT)/usr/lib/python2.6/config",
 					"$(SDKROOT)/usr/lib/python2.7/config",
 					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/AllTargets",
+					"$(PROJECT_DIR)/AutoSelectTargets",
 					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/PlugIns/Xcode3UI.ideplugin/Contents/MacOS",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.poboke.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fjtrujy.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = AutoSelectTargets;
 				WRAPPER_EXTENSION = xcplugin;
 			};
 			name = Debug;
@@ -357,7 +362,7 @@
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
-				INFOPLIST_FILE = AllTargets/Info.plist;
+				INFOPLIST_FILE = AutoSelectTargets/Info.plist;
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -367,12 +372,12 @@
 					"$(SDKROOT)/usr/lib/python2.6/config",
 					"$(SDKROOT)/usr/lib/python2.7/config",
 					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/AllTargets",
+					"$(PROJECT_DIR)/AutoSelectTargets",
 					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/PlugIns/Xcode3UI.ideplugin/Contents/MacOS",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.poboke.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fjtrujy.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = AutoSelectTargets;
 				WRAPPER_EXTENSION = xcplugin;
 			};
 			name = Release;
@@ -380,7 +385,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C5C02E1E1A73971C00D4CF7C /* Build configuration list for PBXProject "AllTargets" */ = {
+		C5C02E1E1A73971C00D4CF7C /* Build configuration list for PBXProject "AutoSelectTargets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C5C02E321A73971C00D4CF7C /* Debug */,
@@ -389,7 +394,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C5C02E341A73971C00D4CF7C /* Build configuration list for PBXNativeTarget "AllTargets" */ = {
+		C5C02E341A73971C00D4CF7C /* Build configuration list for PBXNativeTarget "AutoSelectTargets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C5C02E351A73971C00D4CF7C /* Debug */,

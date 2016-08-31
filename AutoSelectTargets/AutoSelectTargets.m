@@ -6,23 +6,23 @@
 //  Copyright (c) 2015年 Jobs. All rights reserved.
 //
 
-#import "AllTargets.h"
+#import "AutoSelectTargets.h"
 #import "Xcode3TargetMembershipDataSource+HookAllTargets.h"
-#import "ATMenuItem.h"
-#import "ATSavedData.h"
+#import "ASTMenuItem.h"
+#import "ASTSavedData.h"
 
 static NSString * const BundleNameKey = @"CFBundleName";
 static NSString * const XcodeKey = @"Xcode";
 static NSString * const PluginsKey = @"Plugins";
 static NSString * const WindowsKey = @"Window";
 
-static AllTargets *sharedPlugin;
+static AutoSelectTargets *sharedPlugin;
 
-@interface AllTargets() <NSTableViewDelegate, ATMenuItemDelegate>
+@interface AutoSelectTargets() <NSTableViewDelegate, ASTMenuItemDelegate>
 
 @end
 
-@implementation AllTargets
+@implementation AutoSelectTargets
 
 + (void)pluginDidLoad:(NSBundle *)plugin
 {
@@ -74,36 +74,36 @@ static AllTargets *sharedPlugin;
         [appMenu insertItem:pluginsMenuItem atIndex:windowIndex];
     }
     
-    ATMenuItem *menuItem = [[ATMenuItem alloc] initWithSavedData:self.savedData];
+    ASTMenuItem *menuItem = [[ASTMenuItem alloc] initWithSavedData:self.savedData];
     menuItem.delegate = self;
     [pluginsMenuItem.submenu addItem:menuItem];
 }
 
 #pragma mark - Saved Data methods
 
-- (ATSavedData *)savedData
+- (ASTSavedData *)savedData
 {
-    ATSavedData *savedData;
-    NSData *data = [[NSUserDefaults standardUserDefaults] objectForKey:NSStringFromClass([ATSavedData class])];
+    ASTSavedData *savedData;
+    NSData *data = [[NSUserDefaults standardUserDefaults] objectForKey:NSStringFromClass([ASTSavedData class])];
     if (data) {
         savedData = [NSKeyedUnarchiver unarchiveObjectWithData:data];
     } else {
-        savedData = [[ATSavedData alloc] init];
+        savedData = [[ASTSavedData alloc] init];
     }
     
     return savedData;
 }
 
-- (void)setSavedData:(ATSavedData *)savedData
+- (void)setSavedData:(ASTSavedData *)savedData
 {
     NSData *data = [NSKeyedArchiver archivedDataWithRootObject:savedData];
-    [[NSUserDefaults standardUserDefaults] setObject:data forKey:NSStringFromClass([ATSavedData class])];
+    [[NSUserDefaults standardUserDefaults] setObject:data forKey:NSStringFromClass([ASTSavedData class])];
     [[NSUserDefaults standardUserDefaults] synchronize];
 }
 
-#pragma mark - ATMenuItemDelegate
+#pragma mark - ASTMenuItemDelegate
 
-- (void)menuItem:(ATMenuItem *)menuItem didUpdateSavedData:(ATSavedData *)savedData
+- (void)menuItem:(ASTMenuItem *)menuItem didUpdateSavedData:(ASTSavedData *)savedData
 {
     self.savedData = savedData;
 }
