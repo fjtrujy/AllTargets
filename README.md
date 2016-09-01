@@ -1,6 +1,6 @@
 
-# AutoSelectTarget
-  AutoSelectTarget is a plugin for Xcode. The plugin intends to auto select targets depending of the selected configuration when you add files to the project.
+# AutoSelectTargets
+  AutoSelectTargets is a plugin for Xcode. The plugin intends to auto select targets depending of the selected configuration when you add files to the project.
   
   ![image](https://github.com/fjtrujy/AutoSelectTargets/raw/master/Screenshots/mainMenu.png)
   ![image](https://github.com/fjtrujy/AutoSelectTargets/raw/master/Screenshots/about.png)
@@ -15,7 +15,7 @@
 
 ## Install
   - Using [Alcatraz](http://alcatraz.io/)
-  - Adding "Auto Select targets" plugin
+  - Adding "AutoSelectTargets" plugin
 
 ## Manual build and install
   - Download source code and open AutoSelectTargets.xcodeproj with Xcode.
